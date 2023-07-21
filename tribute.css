@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(87,87,87);
+    background: linear-gradient(90deg, rgba(87,87,87,1) 0%, rgba(244,243,243,1) 50%, rgba(107,107,107,1) 100%);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(12,12,12);
+    background: linear-gradient(90deg, rgba(12,12,12,1) 0%, rgba(121,9,11,1) 50%, rgba(23,23,23,1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+#tribute-data h1{
+    font-family: serif;
+    font-size: 40px;
+    text-align: center;
+}
+#tribute-info img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#tribute-info p {
+    margin-top: 1rem;
+}
+#tribute-data {
+    background-color: white;
+    box-shadow: 0 0 10px black; /* Set the box-shadow color to black */
+    font-family: Georgia, serif;
+    padding: 25px;
+    margin: 11px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 1rem;
+
+}
+
+footer p {
+    margin: 0;
+}
